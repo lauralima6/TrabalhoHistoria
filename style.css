@@ -1,0 +1,218 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.692)), url("../imagens/apatria.jpg"); 
+    height: 640px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div{
+    margin:0;
+}
+div#imagem figcaption{
+    padding-left: 55px;
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 300%;
+    width: 85%;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    font-size: 30px;
+    word-spacing: 4px;
+}
+li{
+    list-style: none;
+    margin: 150px;
+    margin-bottom: 0;
+    margin-top: 500px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+img#left{
+    width: 45px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+}
+img#right{
+    width: 45px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    float:right;
+    transform: rotate(180deg);
+    cursor: pointer;
+    float: right;
+}
+h2{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   padding-top: 30px;
+   padding-bottom: 5px;
+}
+h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-bottom: 30px;
+ }
+p#texto0{
+    float: center;
+    text-align: justify;
+    margin: 2%;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-indent: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+}
+p#texto1{
+    float: center;
+    text-align: justify;
+    margin: 3%;
+    margin-left: 50px;
+    text-indent: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+}
+p#texto2{
+    float: center;
+    text-align: justify;
+    margin:2%;
+    text-indent: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+}
+p#texto3{
+    float: center;
+    text-align: justify;
+    margin:1%;
+    margin-right: 3%;
+    text-indent: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+}
+p#texto4{
+    float: center;
+    text-align: justify;
+    margin: 4%;
+    text-indent: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+div#paragrafo0{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+}
+div#paragrafo1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+div#paragrafo2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+div#paragrafo3{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+div#paragrafo4{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+}
+video#video0{
+    position: relative;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 500px;
+    height: 400px;
+    padding-top: 5%;
+    }
+ video#video1{
+position: relative;
+float: right;
+height: 400px;
+width: 400px;
+padding-top: 30%;
+}
+ img#image2{
+    position: relative;
+    float: left;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-top: 15%;
+    height: 450px;
+    width: 600px;
+    margin-bottom: 5px;
+}
+video#video2{
+    position: relative;
+    float: left;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-top: 5%;
+    height: 450px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+
+div#fundo0{
+    background-color: #DEB887;
+    height: 640px;
+    color:  #7E310B;
+}
+div#fundo1{
+    background-color: #C88A36;
+    height: 640px;
+    color: #EFE7DD;
+}
+div#fundo2{
+    background-color: #DEB887;
+    height: 640px;
+    color:  #7E310B;
+
+}
+div#fundo3{
+    background-color: #523E27;
+    height: 640px;
+    color:  #EFE7DD;
+}
+div#fundo4{
+    background-color: #C88A36;
+    height: 640px;
+    color: #EFE7DD;
+}
+div#subir{
+    display: block;
+} 
